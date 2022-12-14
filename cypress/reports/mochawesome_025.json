@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-11T07:14:39.575Z",
+    "end": "2022-10-11T07:14:49.466Z",
+    "duration": 9891,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a89a1602-dac8-4635-be9d-874d63fbded1",
+      "title": "",
+      "fullFile": "cypress\\e2e\\OrangeHRM\\Login_POM.cy.js",
+      "file": "cypress\\e2e\\OrangeHRM\\Login_POM.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "66acd928-8d79-4776-8371-e1ad2dbedabb",
+          "title": "Verfy Orange HRM portal",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verfiy Login functionality",
+              "fullTitle": "Verfy Orange HRM portal Verfiy Login functionality",
+              "timedOut": null,
+              "duration": 6240,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const homepage = new _Loginfunction.LoginPage();\nhomepage.navigate();\nhomepage.enterUserName();\nhomepage.enterPassword();\nhomepage.clickOnSubmit();",
+              "err": {},
+              "uuid": "5dccec38-d95e-42b8-82a1-a042870b65be",
+              "parentUUID": "66acd928-8d79-4776-8371-e1ad2dbedabb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5dccec38-d95e-42b8-82a1-a042870b65be"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6240,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

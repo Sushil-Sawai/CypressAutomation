@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-11T07:16:21.191Z",
+    "end": "2022-10-11T07:16:31.748Z",
+    "duration": 10557,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "17a25feb-d33b-4f9a-af8c-ca2d43a3350a",
+      "title": "",
+      "fullFile": "cypress\\e2e\\RahulShetty-class\\WebsiteTest.cy.js",
+      "file": "cypress\\e2e\\RahulShetty-class\\WebsiteTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4eb5a73e-ea86-445c-b4ad-a50e2a19029e",
+          "title": "verify basic testing for site",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify site test",
+              "fullTitle": "verify basic testing for site verify site test",
+              "timedOut": null,
+              "duration": 8363,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://rahulshettyacademy.com/angularpractice/');\ncy.get('input[name=name]:nth-child(2)').type('sushil');\ncy.get('[name=email]').type('sushil@test.com');\ncy.get('#exampleCheck1').check();\ncy.get('Select').select('Female');\ncy.wait(5000);\ncy.get(':nth-child(2) > .nav-link').click();",
+              "err": {},
+              "uuid": "9dd65b6f-d5ba-491e-a417-f5ce9452c88d",
+              "parentUUID": "4eb5a73e-ea86-445c-b4ad-a50e2a19029e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9dd65b6f-d5ba-491e-a417-f5ce9452c88d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8363,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

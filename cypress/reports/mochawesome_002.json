@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-01T18:48:08.872Z",
+    "end": "2022-10-01T18:48:27.568Z",
+    "duration": 18696,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "039bc11e-ba58-45c4-a144-eaac72b850b7",
+      "title": "",
+      "fullFile": "cypress\\e2e\\2-advanced-examples\\HandleUIElements.cy.js",
+      "file": "cypress\\e2e\\2-advanced-examples\\HandleUIElements.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "24b5728e-eebf-4837-9fd4-c352fa2553d8",
+          "title": "UI Element",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Handle UI element present on the page",
+              "fullTitle": "UI Element Handle UI element present on the page",
+              "timedOut": null,
+              "duration": 14223,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//Visit the Demo QA Website\ncy.visit(\"https://demo.guru99.com/test/newtours/reservation.php\");\ncy.title().should('eq', 'Find a Flight: Mercury Tours:');\ncy.get('input[value=roundtrip]').should('be.visible').should('be.checked');\ncy.get('input[value=oneway]').should('be.visible').should('not.be.checked').click();\ncy.get('input[name=findFlights]').should('be.visible').click();\ncy.wait(5000);",
+              "err": {},
+              "uuid": "b5c16061-42bc-4ebf-9573-53b83c34147a",
+              "parentUUID": "24b5728e-eebf-4837-9fd4-c352fa2553d8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b5c16061-42bc-4ebf-9573-53b83c34147a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14223,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-11T07:13:10.592Z",
+    "end": "2022-10-11T07:13:16.648Z",
+    "duration": 6056,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "acefab30-74ce-4e72-aea1-c1d69acaa8c4",
+      "title": "",
+      "fullFile": "cypress\\e2e\\2-advanced-examples\\DropDown.cy.js",
+      "file": "cypress\\e2e\\2-advanced-examples\\DropDown.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "49a9eb52-9c9e-460d-837a-bef43c651618",
+          "title": "Verify dropdown on web page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify dropdown",
+              "fullTitle": "Verify dropdown on web page Verify dropdown",
+              "timedOut": null,
+              "duration": 3193,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://demo.nopcommerce.com/\");\ncy.get('#customerCurrency').select('Euro');",
+              "err": {},
+              "uuid": "9485c809-d4e8-4d45-a4d6-9809db9c720f",
+              "parentUUID": "49a9eb52-9c9e-460d-837a-bef43c651618",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9485c809-d4e8-4d45-a4d6-9809db9c720f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3193,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

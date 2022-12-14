@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-13T06:59:33.914Z",
+    "end": "2022-12-13T06:59:34.051Z",
+    "duration": 137,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f85e89e7-ac24-4c5a-abdd-28d90f575add",
+      "title": "",
+      "fullFile": "cypress\\e2e\\2-advanced-examples\\HooksDemo.cy.js",
+      "file": "cypress\\e2e\\2-advanced-examples\\HooksDemo.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "080336fe-f640-43e0-af0d-ca4b71a0a87f",
+          "title": "test hooks in cypress",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify Search",
+              "fullTitle": "test hooks in cypress Verify Search",
+              "timedOut": null,
+              "duration": 41,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log(\"************TC:1 Search Block***************\");",
+              "err": {},
+              "uuid": "17a6dddc-3dfc-4544-9ab2-70b55144c508",
+              "parentUUID": "080336fe-f640-43e0-af0d-ca4b71a0a87f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Advance Search",
+              "fullTitle": "test hooks in cypress Verify Advance Search",
+              "timedOut": null,
+              "duration": 20,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log(\"************TC:2 Advance Search Block***************\");",
+              "err": {},
+              "uuid": "7a7ecfac-b9d9-470b-b4f4-0d6f0a1a0ada",
+              "parentUUID": "080336fe-f640-43e0-af0d-ca4b71a0a87f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify product availability",
+              "fullTitle": "test hooks in cypress Verify product availability",
+              "timedOut": null,
+              "duration": 19,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log(\"************TC:3 Search Product***************\");",
+              "err": {},
+              "uuid": "1bca2ffa-bcce-4424-92e2-20c779086305",
+              "parentUUID": "080336fe-f640-43e0-af0d-ca4b71a0a87f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "17a6dddc-3dfc-4544-9ab2-70b55144c508",
+            "7a7ecfac-b9d9-470b-b4f4-0d6f0a1a0ada",
+            "1bca2ffa-bcce-4424-92e2-20c779086305"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 80,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

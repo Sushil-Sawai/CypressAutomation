@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-13T06:57:43.669Z",
+    "end": "2022-12-13T06:57:49.209Z",
+    "duration": 5540,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "41703380-c3e6-4216-9170-37cb1ee8c12d",
+      "title": "",
+      "fullFile": "cypress\\e2e\\OrangeHRM\\FileUpload.cy.js",
+      "file": "cypress\\e2e\\OrangeHRM\\FileUpload.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d710fade-4d00-4cd5-b8d9-4f37044ac91e",
+          "title": "Upload download file",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify upload functonality",
+              "fullTitle": "Upload download file Verify upload functonality",
+              "timedOut": null,
+              "duration": 996,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://trytestingthis.netlify.app/');\ncy.get('#myfile').attachFile('example.json');",
+              "err": {},
+              "uuid": "4b7bd320-aa2d-432d-9c6e-803b1f050f9f",
+              "parentUUID": "d710fade-4d00-4cd5-b8d9-4f37044ac91e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify file download",
+              "fullTitle": "Upload download file Verify file download",
+              "timedOut": null,
+              "duration": 399,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//cy.downloadFile('')\ncy.downloadFile('https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg', 'mydownloads', 'example.jpg');",
+              "err": {},
+              "uuid": "e024a85a-7c9c-43d6-9a3e-b18782a48199",
+              "parentUUID": "d710fade-4d00-4cd5-b8d9-4f37044ac91e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4b7bd320-aa2d-432d-9c6e-803b1f050f9f",
+            "e024a85a-7c9c-43d6-9a3e-b18782a48199"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1395,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

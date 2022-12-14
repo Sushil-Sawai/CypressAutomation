@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-13T07:00:13.478Z",
+    "end": "2022-12-13T07:00:22.844Z",
+    "duration": 9366,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "62346c8c-cc27-4cf7-80c4-e484d095bf9b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\RahulShetty-class\\EnvVarDemo.cy.js",
+      "file": "cypress\\e2e\\RahulShetty-class\\EnvVarDemo.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e35693b2-c0dc-4c2d-b7a8-8c25e4c83059",
+          "title": "verify env variable",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify user is able to access variable",
+              "fullTitle": "verify env variable verify user is able to access variable",
+              "timedOut": null,
+              "duration": 6724,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const homePage = new _HomePage.default(); //create object\ncy.visit(Cypress.env('url'));\nhomePage.getRadiobutton1().check();\nhomePage.getDropDownOption().select('option1');\ncy.get('#name').type(this.data.name);",
+              "err": {},
+              "uuid": "58d3ecf1-fa92-4d28-ade3-b1c24bdf3d9e",
+              "parentUUID": "e35693b2-c0dc-4c2d-b7a8-8c25e4c83059",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "58d3ecf1-fa92-4d28-ade3-b1c24bdf3d9e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6724,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
